@@ -1,0 +1,43 @@
+// These are the general application customizations
+$navbar-default-bg: #0099FF;
+$navbar-default-link-color: #FFCC33;
+$navbar-default-link-hover-color: #878787;
+$jumbotron-bg: #0099FF;
+$navbar-height: 70px;
+$body-bg: #FFCC33;
+
+@import 'bootstrap';
+
+// These are the nav bar customizations
+.center {
+		text-align: center;
+}
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar-default{
+	font-size: 20px;
+}
+
+// These are the carousel customizations
+.slider-size {
+height: 300px;
+}
+.carousel {
+width:80%;
+margin:0 auto; 
+}
+.item{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.bs-example{
+    margin: 10px;
+}
+
+//These are the jumbotron customizations
+.jumbotron{
+	margin-top: 30px;
+}
