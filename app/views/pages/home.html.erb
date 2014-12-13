@@ -5,4 +5,13 @@
 <div class='jumbotron center'>
 	<h1>Prop Sheet</h1>
 	<p>The chances you win are slim</p>
+   <% if user_signed_in? %>
+   		<p>
+   			<%= link_to "Join Pool", '#' , class: "btn btn-primary btn-lg" %>
+ 			</p>
+     <% else %>
+       <p>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+       </p>
+  <% end %>  
 </div>
