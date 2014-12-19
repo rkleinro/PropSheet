@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   root "pages#home"
 
   get "scoreboard" => "pages#scoreboard"
-  get "profile" => "pages#profile"
+  get "rules" => "pages#rules"
   get "about" => "pages#about"
-  get "help" => "pages#help"
+  get "contact" => "pages#contact"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

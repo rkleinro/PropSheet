@@ -1,23 +1,40 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lobster|Graduate|Special+Elite|Permanent+Marker|Alice);
+
+$font-family-sans-serif: 'Alice', cursive, Arial, sans-serif;
+
 // These are the general application customizations
-$navbar-default-bg: #0099FF;
-$navbar-default-link-color: #FFCC33;
-$navbar-default-link-hover-color: #878787;
-$jumbotron-bg: #0099FF;
-$navbar-height: 70px;
-$body-bg: #FFCC33;
+
+$navbar-default-bg: #999999;
+$navbar-default-link-color: #660000;
+$navbar-default-link-hover-color: #3388FF;
+$navbar-default-brand-color: #000000;
+$navbar-default-brand-hover-color: #3388FF;
+$jumbotron-bg: #999999;
+$body-bg: #660000;
+$navbar-height: 20px;
+$font-color: #3388FF;
+$brand-primary: #3388FF;
+$brand-secondary: #000000;
+$brand-tertiary: #999999;
+$panel-footer-bg: #3388FF;
+$panel-default-text: #660000;
+$link-color: #660000;
 
 @import 'bootstrap';
 
 // These are the nav bar customizations
 .center {
-		text-align: center;
+	text-align: center;
 }
 .navbar-brand {
-	font-size: 30px;
+	font-family: Permanent Marker;
+	font-size: 35px;
 	font-weight: bold;
 }
 .navbar-default{
-	font-size: 20px;
+	font-family: Graduate;
+	font-size: 18px;
 }
 
 // These are the carousel customizations
@@ -40,21 +57,38 @@ margin:0 auto;
 //These are the jumbotron customizations
 .jumbotron{
 	margin-top: 30px;
+	color: #000000;
 }
 
 // About page thumbnails
-.thumbnail img { min-height:50px; height:300px; 
+.thumbnail img { 
+	min-height:50px; height:300px; 
 }
 
-.caption { text-align: center; 
+.caption { 
+	text-align: center; 
+	color: #999999
 }
 
 .container{
-	color: #0099FF;
+	color: #999999;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
 }
 
-
+// Button Customizations
+.btn{
+	font-family: Lobster;
+}
+// Panel Customizations
+.panel-title{
+	color: white;
+}
+.panel{
+	color: #000000;
+}
+.panel-footer-link{
+	color: #660000;
+}
