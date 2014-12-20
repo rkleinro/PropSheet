@@ -1,6 +1,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lobster|Graduate|Special+Elite|Permanent+Marker|Alice);
 
+
 $font-family-sans-serif: 'Alice', cursive, Arial, sans-serif;
 
 // These are the general application customizations
@@ -15,8 +16,8 @@ $body-bg: #660000;
 $navbar-height: 20px;
 $font-color: #3388FF;
 $brand-primary: #3388FF;
-$brand-secondary: #000000;
-$brand-tertiary: #999999;
+$brand-warning: #000000;
+$brand-tertiary: #000000;
 $panel-footer-bg: #3388FF;
 $panel-default-text: #660000;
 $link-color: #660000;
@@ -42,8 +43,8 @@ $link-color: #660000;
 height: 300px;
 }
 .carousel {
-width:80%;
-margin:0 auto; 
+width:60%;
+margin:0 auto;
 }
 .item{
     text-align: center;
@@ -53,7 +54,10 @@ margin:0 auto;
 .bs-example{
     margin: 10px;
 }
+.carousel-indicators{
+	padding-bottom: 275px;
 
+}
 //These are the jumbotron customizations
 .jumbotron{
 	margin-top: 30px;
