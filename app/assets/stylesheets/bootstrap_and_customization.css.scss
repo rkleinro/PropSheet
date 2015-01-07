@@ -22,6 +22,7 @@ $panel-footer-bg: #3388FF;
 $panel-default-text: #660000;
 $link-color: #660000;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 // These are the nav bar customizations
