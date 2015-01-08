@@ -1,20 +1,81 @@
 
 
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2 class="panel-title">Prop Sheet </h2>
+  </div>
+
+  <div class="panel-body">
+    <form>
+
+	   <div class="radio">
+	    	<p> Total number of passing yards in the game: 625 yards</p>
+			  <label>
+			    <input type="radio" name="Passing Yards" id="optionsRadios1" value="option1" checked>
+			  	Over
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="Passing Yards" id="optionsRadios2" value="option2" checked>
+			  	Under
+			  </label>
+	  	</div>
+	 
+			<div class="radio">
+				<p> Will there be a defensive touchdown scored in the game? </p>
+			  <label>
+			    <input type="radio" name="DefTD" id="optionsRadios1" value="option1" checked>
+			  	Yes
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="DefTD" id="optionsRadios2" value="option2" checked>
+			  	No
+			  </label>
+			</div>
+
+			<div class="radio">
+				<p> What color will the gatorade be? </p>
+			  <label>
+			    <input type="radio" name="Gatorade" id="optionsRadios1" value="option1" checked>
+			  	Clear
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="Gatorade" id="optionsRadios2" value="option2" checked>
+			  	Red
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="Gatorade" id="optionsRadios3" value="option3" checked>
+			  	Orange
+			  </label>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="Gatorade" id="optionsRadios4" value="option4" checked>
+			  	Blue
+			  </label>
+			</div>
+			
+		<form>
+  	</div>
+
+  	<div class="panel-footer">
+		<button type="submit" class="btn btn-success">Submit</button>
+	</div>
+</div>
+
 <div class='container'>
 	<p> Total Recieving Yards </p>
-	<button type="button" class="btn btn-primary active">Over</button>
-	<button type="button" class="btn btn-primary">Under</button>
-</div>
-
-
-<div class='container'>
-	<p> Total Rushing Yards </p>
-	<button type="button" class="btn btn-primary">Over</button>
-	<button type="button" class="btn btn-primary">Under</button>
-</div>
-
-<div class='container'>
-	<p> Total Passing Yards </p>
-	<button type="button" class="btn btn-primary">Over</button>
-	<button type="button" class="btn btn-primary">Under</button>
-</div>
+	<div class= 'center'>
+        <%= radio_button_tag(:over_under, "over") %>
+        <%= label_tag(:Over, "Over") %>
+		<%= radio_button_tag(:over_under, "under") %>
+        <%= label_tag(:Under, "Under") %>
+    </div>
+  
+ 
