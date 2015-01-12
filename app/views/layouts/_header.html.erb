@@ -14,15 +14,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "Scoreboard", scoreboard_path %></li>
+        <li><%= link_to "Entries", entries_path %></li>
         <li><%= link_to "Rules", rules_path %></li>
-        <li><%= link_to "About", about_path %></li>
         <li><%= link_to "Contact Us", contact_path %></li>
-          <% if user_signed_in? %>
-            <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %></li>
-            <li><%= link_to "Account Settings", edit_user_registration_path %></Li>   
-          <% else %>
-            <li><%= link_to "Log in", new_user_session_path %></Li>
-  <% end %>
       </ul>
   </div>
 </nav>

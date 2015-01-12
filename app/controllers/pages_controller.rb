@@ -6,13 +6,16 @@ class PagesController < ApplicationController
   def Scoreboard
   end
 
-  def Profile
-  end
-
-  def About
+  def Entries
   end
 
   def Rules
+  end
+
+  def Contact
+  end
+
+  def Form
   end
 
 end

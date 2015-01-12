@@ -4,8 +4,9 @@ Rails.application.routes.draw do
 
   get "scoreboard" => "pages#scoreboard"
   get "rules" => "pages#rules"
-  get "about" => "pages#about"
+  get "entries" => "pages#entries"
   get "contact" => "pages#contact"
+  get "form" => "pages#form"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
