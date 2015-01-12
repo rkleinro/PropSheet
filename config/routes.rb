@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get "rules" => "pages#rules"
   get "entries" => "pages#entries"
   get "contact" => "pages#contact"
+  get "about" => "pages#about"
   get "form" => "pages#form"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

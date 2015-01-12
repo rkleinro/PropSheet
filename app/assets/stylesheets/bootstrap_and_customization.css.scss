@@ -20,6 +20,8 @@ $brand-warning: #000000;
 $brand-success: #660000;
 $panel-footer-bg: #3388FF;
 $panel-default-text: #660000;
+$panel-default-heading-bg: #3388FF;
+$panel-border-radius: 20px;
 $link-color: #660000;
 
 @import 'bootstrap-sprockets';
@@ -94,4 +96,14 @@ margin:0 auto;
 }
 .panel-footer-link{
 	color: #660000;
+}
+
+.panel-heading{
+	font-size: 20px;
+	font-family: Alice;
+}
+
+.scoreboard{
+	padding-top: 20px;	
+	text-align: center;
 }
