@@ -12,12 +12,6 @@ class PagesController < ApplicationController
   def Rules
   end
 
-  def Contact
-  end
-
-  def About
-  end  
-
   def Form
   end
 
